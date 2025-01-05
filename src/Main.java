@@ -51,6 +51,12 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Seleccionó dividir");
+                    System.out.println("Ingrese el primer número: ");
+                    int g = Integer.parseInt(scanner.nextLine());
+                    System.out.println("Ingrese el segundo número: ");
+                    int h = Integer.parseInt(scanner.nextLine());
+                    System.out.println("El resultado de la división es: " + operations.divide(g, h));
+                    menu();
                     break;
                 case 5:
                     System.out.println("Adiós bro");
