@@ -53,7 +53,7 @@ public class Main {
                     System.out.println("Seleccionó dividir");
                     break;
                 case 5:
-                    System.out.println("Adiós");
+                    System.out.println("Adiós bro");
                     break;
                 default:
                     System.out.println("Opción no válida");
