@@ -33,6 +33,12 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Seleccionó restar");
+                    System.out.println("Ingrese el primer número: ");
+                    int c = Integer.parseInt(scanner.nextLine());
+                    System.out.println("Ingrese el segundo número: ");
+                    int d = Integer.parseInt(scanner.nextLine());
+                    System.out.println("El resultado de la resta es: " + operations.subtract(c, d));
+                    menu();
                     break;
                 case 3:
                     System.out.println("Seleccionó multiplicar");
